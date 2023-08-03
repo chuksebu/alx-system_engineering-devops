@@ -1,0 +1,2 @@
+#!/bin/bash
+Root readme
