@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(printf '%o\n' $(( 5#$( echo $WATER | tr htsbonelcr 0123456789 ) + 5#$( echo $STIR | tr htsbonelcr 0123456789 ) ))) | tr 01234567 behlnort
